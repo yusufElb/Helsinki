@@ -1,0 +1,54 @@
+.circle {   
+    width: 300px;
+    height: 300px;
+    margin-left: 320px;
+    background-color: magenta;
+    transition: 1s ease-in;
+}
+
+.circle:hover {
+    background-color: cyan;
+    border-radius: 50%;
+}
+
+
+h2 {    
+    background-color: rgb(141, 177, 171);
+    border: 5px solid rgb(88, 119, 146);
+    color: rgb(242, 237, 229);
+    padding: 0.7em;
+    width: 300px;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+
+}
+
+h2:nth-of-type(2n) {
+    background-color: rgb(244, 224, 77);
+    
+}
+
+h2:nth-of-type(3n) {
+    background-color: orange;
+
+}
+
+h2:nth-of-type(4n) {
+    background-color: rgb(155, 41, 21);
+
+}
+
+h2:nth-of-type(1) {
+    /* transform-origin: top right; */
+    transform: rotate(45deg) scale(0.5);
+    /* transform: scale(0.5); */
+}
+
+h2:nth-of-type(2) {
+    /* transform-origin: top right; */
+    transform: rotate(45deg) scale(0.5);
+
+}

@@ -1,0 +1,17 @@
+h1{
+    font-size: 40px;
+    border: 1px black solid;
+    line-height: 200%; 
+}
+
+section {
+    background-color: grey;
+    width: 500px;
+    height: 500px;
+}
+
+div {
+    background-color: pink;
+    width: 50%;
+    height: 50%;
+}
